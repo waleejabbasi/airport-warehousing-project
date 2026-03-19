@@ -33,13 +33,13 @@ This project demonstrates a complete end-to-end ETL pipeline for airline and air
   - `date_dim` – Calendar details  
   - `airport_dim` – Airport details
 
-![Star Schema](diagrams/architecture/star_Schema.png)
+## Star Schema Design
+![Star Schema](airport-elt-project/diagrams/star_Schema)
 
 ---
 
 ## Architecture Diagram
-
-![ETL Architecture](diagrams/architecture/architecturediagram2.png)
+![ETL Architecture](airport-elt-project/diagrams/architecturediagram2)
 
 ---
 
