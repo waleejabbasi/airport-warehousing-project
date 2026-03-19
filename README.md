@@ -25,7 +25,6 @@ This project demonstrates a complete end-to-end ETL pipeline for airline and air
 ## Star Schema Design
 
 - **Fact Table:** `airport_fact`  
-  - Measures: `flight_count`, `passenger_count`, `cargo_weight`  
   - Foreign Keys: `customer_id`, `pilot_id`, `date_id`, `airport_id`
 
 - **Dimension Tables:**  
@@ -34,13 +33,13 @@ This project demonstrates a complete end-to-end ETL pipeline for airline and air
   - `date_dim` – Calendar details  
   - `airport_dim` – Airport details
 
-![Star Schema](diagrams/star_Scheam.png)
+![Star Schema](diagrams/architecture/star_Schema.png)
 
 ---
 
 ## Architecture Diagram
 
-![ETL Architecture](diagrams/architecturediagram2.png)
+![ETL Architecture](diagrams/architecture/architecturediagram2.png)
 
 ---
 
