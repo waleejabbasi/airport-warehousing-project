@@ -33,16 +33,6 @@ This project demonstrates a complete end-to-end ETL pipeline for airline and air
   - `date_dim` – Calendar details  
   - `airport_dim` – Airport details
 
-## Star Schema Design
-![Star Schema](airport-elt-project/diagrams/star_Schema)
-
----
-
-## Architecture Diagram
-![ETL Architecture](airport-elt-project/diagrams/architecturediagram2)
-
----
-
 ## Tools & Technologies
 
 - **Python (Pandas)** – Data extraction, cleaning, and transformation  
@@ -52,7 +42,7 @@ This project demonstrates a complete end-to-end ETL pipeline for airline and air
   - Streams & Merge for incremental loading  
 - **Apache Airflow** – ETL orchestration and scheduling  
 - **SQL** – Table creation, star schema design, incremental merges  
-- **Power BI / SQL Queries** – Data visualization and analytics
+
 
 ---
 
